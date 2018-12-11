@@ -10,7 +10,7 @@
 	<!-- Root Context: defines shared resources visible to all other web components -->
 	
 	<!-- Service 및 DAO BEAN 어노테이션 설정 -->
-	<context:component-scan base-package="com.spring.example">
+	<context:component-scan base-package="com.spring.example.service">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 		

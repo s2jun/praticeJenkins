@@ -4,6 +4,11 @@
 <html>
 <head>
 	<title>Home</title>
+	<script>
+	function movePage1(){
+		location.href="/main/page1"
+	}
+	</script>
 </head>
 <body>
 <h1>
@@ -12,5 +17,7 @@
 
 <P>  The time on the server is ${serverTime}. </P>
 <p>커밋사항1</p>
+<button type="button" onclick="movePage1();">TestPage1</button>
 </body>
+<script src="/resources/js/home.js" type="text/javascript"></script>
 </html>
