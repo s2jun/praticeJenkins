@@ -17,5 +17,6 @@ public class MainController {
 		logger.info("첫 페이지로 이동");
 		return "page1";
 	}
+	//서버에 직접 수정시 어떤 변화가 
 
 }
