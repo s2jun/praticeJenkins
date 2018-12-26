@@ -135,7 +135,7 @@
   			<artifactId>jenkins-client</artifactId>
  			 <version>0.3.8</version>
 		</dependency>
-		<!-- jackson-cores -->
+		<!-- jackson-cores 
 		<dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
@@ -150,7 +150,7 @@
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-core</artifactId>
     <version>2.5.0</version>
-</dependency>
+</dependency>-->
 	</dependencies>
     <build>
         <plugins>
